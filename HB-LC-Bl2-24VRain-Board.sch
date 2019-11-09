@@ -1,0 +1,1210 @@
+EESchema Schematic File Version 4
+LIBS:HB-LC-Bl2-24VRain-Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L radio:CC1101 U3
+U 1 1 5C84E2E1
+P 8600 1750
+F 0 "U3" H 8800 2250 60  0000 L CNN
+F 1 "CC1101-868MHz-Module" H 8200 2350 60  0000 L CNN
+F 2 "radio:CC1101_Module" H 8600 1750 60  0001 C CNN
+F 3 "http://www.digirf.com/XWFU/2013/4f3751b81deca976.pdf" H 8600 1750 60  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 8600 1750 50  0001 C CNN "footprint"
+F 5 "Nein" H 8600 1750 50  0001 C CNN "Bestellen"
+	1    8600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C84F896
+P 2700 4750
+F 0 "#PWR03" H 2700 4500 50  0001 C CNN
+F 1 "GND" H 2705 4577 50  0000 C CNN
+F 2 "" H 2700 4750 50  0001 C CNN
+F 3 "" H 2700 4750 50  0001 C CNN
+	1    2700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5C85120D
+P 2700 4250
+F 0 "#PWR05" H 2700 4100 50  0001 C CNN
+F 1 "+3.3V" H 2715 4423 50  0000 C CNN
+F 2 "" H 2700 4250 50  0001 C CNN
+F 3 "" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C85133D
+P 2700 4500
+F 0 "C1" H 2815 4546 50  0000 L CNN
+F 1 "10µF" H 2815 4455 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2738 4350 50  0001 C CNN
+F 3 "~" H 2700 4500 50  0001 C CNN
+F 4 "Footprint, Bohrungen ok" H 2700 4500 50  0001 C CNN "footprint"
+F 5 "nein" H 2700 4500 50  0001 C CNN "Bestellen"
+	1    2700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5C851A68
+P 1150 900
+F 0 "#PWR01" H 1150 750 50  0001 C CNN
+F 1 "+3.3V" H 1165 1073 50  0000 C CNN
+F 2 "" H 1150 900 50  0001 C CNN
+F 3 "" H 1150 900 50  0001 C CNN
+	1    1150 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C851D1E
+P 1850 3350
+F 0 "#PWR02" H 1850 3100 50  0001 C CNN
+F 1 "GND" H 1855 3177 50  0000 C CNN
+F 2 "" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3250 1850 3250
+Wire Wire Line
+	1850 3250 1850 3350
+Wire Wire Line
+	2050 3150 1850 3150
+Wire Wire Line
+	1850 3150 1850 3250
+Connection ~ 1850 3250
+Wire Wire Line
+	2050 3050 1850 3050
+Wire Wire Line
+	1850 3050 1850 3150
+Connection ~ 1850 3150
+$Comp
+L power:+3.3V #PWR07
+U 1 1 5C85366D
+P 8000 850
+F 0 "#PWR07" H 8000 700 50  0001 C CNN
+F 1 "+3.3V" H 8015 1023 50  0000 C CNN
+F 2 "" H 8000 850 50  0001 C CNN
+F 3 "" H 8000 850 50  0001 C CNN
+	1    8000 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2150 4750 2150
+Wire Wire Line
+	3950 2250 4850 2250
+Wire Wire Line
+	3950 2350 4950 2350
+Wire Wire Line
+	5050 1150 3950 1150
+$Comp
+L power:GND #PWR06
+U 1 1 5C8566FC
+P 5600 1800
+F 0 "#PWR06" H 5600 1550 50  0001 C CNN
+F 1 "GND" V 5605 1672 50  0000 R CNN
+F 2 "" H 5600 1800 50  0001 C CNN
+F 3 "" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5C868F8E
+P 1750 1150
+F 0 "C4" H 1865 1196 50  0000 L CNN
+F 1 "100n" H 1865 1105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1788 1000 50  0001 C CNN
+F 3 "~" H 1750 1150 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 1750 1150 50  0001 C CNN "footprint"
+	1    1750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5C8690C6
+P 1450 1150
+F 0 "C3" H 1565 1196 50  0000 L CNN
+F 1 "100n" H 1565 1105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1488 1000 50  0001 C CNN
+F 3 "~" H 1450 1150 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 1450 1150 50  0001 C CNN "footprint"
+	1    1450 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 950  1750 950 
+Wire Wire Line
+	1150 950  1150 900 
+Wire Wire Line
+	1750 1000 1750 950 
+Connection ~ 1750 950 
+$Comp
+L power:GND #PWR09
+U 1 1 5C86CE93
+P 1600 1400
+F 0 "#PWR09" H 1600 1150 50  0001 C CNN
+F 1 "GND" H 1605 1227 50  0000 C CNN
+F 2 "" H 1600 1400 50  0001 C CNN
+F 3 "" H 1600 1400 50  0001 C CNN
+	1    1600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1300 1750 1350
+Wire Wire Line
+	1750 1350 1600 1350
+Wire Wire Line
+	1600 1400 1600 1350
+$Comp
+L Device:C C5
+U 1 1 5C86F0B1
+P 7800 1300
+F 0 "C5" V 7650 1300 50  0000 C CNN
+F 1 "100n" V 7950 1300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7838 1150 50  0001 C CNN
+F 3 "~" H 7800 1300 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" V 7800 1300 50  0001 C CNN "footprint"
+F 5 "Nein" V 7800 1300 50  0001 C CNN "Bestellen"
+	1    7800 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5C86F143
+P 7550 850
+F 0 "#PWR010" H 7550 600 50  0001 C CNN
+F 1 "GND" V 7555 722 50  0000 R CNN
+F 2 "" H 7550 850 50  0001 C CNN
+F 3 "" H 7550 850 50  0001 C CNN
+	1    7550 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L arduino:ArduinoProMini IC1
+U 1 1 5C86EC9F
+P 2950 2050
+F 0 "IC1" H 3000 3500 40  0000 C CNN
+F 1 "ArduinoProMini" H 3000 3424 40  0000 C CNN
+F 2 "arduino:pro_mini" H 2950 2050 30  0001 C CIN
+F 3 "http://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf" H 3000 3333 60  0000 C CNN
+F 4 "footprint, Bohrungen ok" H 2950 2050 50  0001 C CNN "footprint"
+	1    2950 2050
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 1650 0    50   ~ 0
+config-btn
+$Comp
+L relay:FINDER-40.61 RL1
+U 1 1 5C99AA84
+P 6150 3800
+F 0 "RL1" V 5583 3800 50  0000 C CNN
+F 1 "FINDER-40.61" V 5674 3800 50  0000 C CNN
+F 2 "relay:FIN4061" H 6150 3800 50  0001 C CNN
+F 3 "" V 5675 3800 50  0000 C CNN
+F 4 "FIN 40.61.9 24V" V 6150 3800 50  0001 C CNN "reichelt"
+	1    6150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q2
+U 1 1 5C99AE89
+P 7700 3600
+F 0 "Q2" V 7936 3600 50  0000 C CNN
+F 1 "BC337" V 8027 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7900 3525 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 7700 3600 50  0001 L CNN
+F 4 "footprint, Bohrungen ok" V 7700 3600 50  0001 C CNN "footprint"
+F 5 "Ja" V 7700 3600 50  0001 C CNN "Bestellen"
+	1    7700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L relay:FINDER-40.61 RL3
+U 1 1 5C99AB23
+P 8550 3900
+F 0 "RL3" V 7983 3900 50  0000 C CNN
+F 1 "FINDER-40.61" V 8074 3900 50  0000 C CNN
+F 2 "relay:FIN4061" H 8550 3900 50  0001 C CNN
+F 3 "" V 8075 3900 50  0000 C CNN
+F 4 "FIN 40.61.9 24V" V 8550 3900 50  0001 C CNN "reichelt"
+	1    8550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5C9A486A
+P 7400 3750
+F 0 "#PWR014" H 7400 3500 50  0001 C CNN
+F 1 "GND" H 7405 3577 50  0000 C CNN
+F 2 "" H 7400 3750 50  0001 C CNN
+F 3 "" H 7400 3750 50  0001 C CNN
+	1    7400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C9A5C9D
+P 7500 3350
+F 0 "R3" H 7430 3304 50  0000 R CNN
+F 1 "10k" H 7430 3395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7430 3350 50  0001 C CNN
+F 3 "~" H 7500 3350 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 7500 3350 50  0001 C CNN "footprint"
+F 5 "Nein" H 7500 3350 50  0001 C CNN "Bestellen"
+	1    7500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR015
+U 1 1 5C9A8276
+P 9200 3500
+F 0 "#PWR015" H 9200 3350 50  0001 C CNN
+F 1 "+24V" H 9215 3673 50  0000 C CNN
+F 2 "" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3500 9200 3700
+Wire Wire Line
+	9200 3700 8950 3700
+$Comp
+L Diode:1N4148 D2
+U 1 1 5C9A9808
+P 8550 3200
+F 0 "D2" H 8550 2984 50  0000 C CNN
+F 1 "1N4148" H 8550 3075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8550 3025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8550 3200 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 8550 3200 50  0001 C CNN "footprint"
+F 5 "Nein" H 8550 3200 50  0001 C CNN "Bestellen"
+	1    8550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 3200 8950 3200
+Wire Wire Line
+	8950 3200 8950 3700
+Connection ~ 8950 3700
+Wire Wire Line
+	8950 3700 8850 3700
+Wire Wire Line
+	8400 3200 8150 3200
+Wire Wire Line
+	8150 3200 8150 3700
+Wire Wire Line
+	8150 3700 8250 3700
+Wire Wire Line
+	8850 4000 9350 4000
+Wire Wire Line
+	8850 4200 9350 4200
+Text Label 9050 4000 0    50   ~ 0
+M1_L1
+Text Label 9050 4200 0    50   ~ 0
+M1_L2
+Wire Wire Line
+	8250 4100 6450 4100
+Wire Wire Line
+	5850 4000 5550 4000
+Text Label 5650 4000 0    50   ~ 0
+L
+$Comp
+L Transistor_BJT:BC337 Q1
+U 1 1 5C9AADFE
+P 5400 3500
+F 0 "Q1" V 5636 3500 50  0000 C CNN
+F 1 "BC337" V 5727 3500 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5600 3425 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 5400 3500 50  0001 L CNN
+F 4 "footprint, Bohrungen ok" V 5400 3500 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" V 5400 3500 50  0001 C CNN "Bestellen"
+F 6 "RND BC337" V 5400 3500 50  0001 C CNN "reichelt"
+	1    5400 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3700 8150 3700
+Connection ~ 8150 3700
+Wire Wire Line
+	7650 3350 7700 3350
+Wire Wire Line
+	7700 3350 7700 3400
+Wire Wire Line
+	7350 3350 7100 3350
+Text Label 7100 3350 0    50   ~ 0
+M1_DIR
+Wire Wire Line
+	7500 3700 7400 3700
+Wire Wire Line
+	7400 3700 7400 3750
+$Comp
+L power:+24V #PWR013
+U 1 1 5C9B21EF
+P 6650 3450
+F 0 "#PWR013" H 6650 3300 50  0001 C CNN
+F 1 "+24V" H 6665 3623 50  0000 C CNN
+F 2 "" H 6650 3450 50  0001 C CNN
+F 3 "" H 6650 3450 50  0001 C CNN
+	1    6650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5C9B2222
+P 6150 3100
+F 0 "D1" H 6150 2884 50  0000 C CNN
+F 1 "1N4148" H 6150 2975 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 6150 2925 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6150 3100 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 6150 3100 50  0001 C CNN "footprint"
+F 5 "Nein" H 6150 3100 50  0001 C CNN "Bestellen"
+	1    6150 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C9B22AE
+P 5150 3250
+F 0 "R2" H 5080 3204 50  0000 R CNN
+F 1 "10k" H 5080 3295 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5080 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 5150 3250 50  0001 C CNN "footprint"
+F 5 "Nein" H 5150 3250 50  0001 C CNN "Bestellen"
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5C9B2332
+P 5050 3650
+F 0 "#PWR012" H 5050 3400 50  0001 C CNN
+F 1 "GND" H 5055 3477 50  0000 C CNN
+F 2 "" H 5050 3650 50  0001 C CNN
+F 3 "" H 5050 3650 50  0001 C CNN
+	1    5050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3600 5700 3600
+Wire Wire Line
+	6000 3100 5700 3100
+Wire Wire Line
+	5700 3100 5700 3600
+Connection ~ 5700 3600
+Wire Wire Line
+	5700 3600 5600 3600
+Wire Wire Line
+	6450 3600 6500 3600
+Wire Wire Line
+	6650 3600 6650 3450
+Wire Wire Line
+	6300 3100 6500 3100
+Wire Wire Line
+	6500 3100 6500 3600
+Connection ~ 6500 3600
+Wire Wire Line
+	6500 3600 6650 3600
+Wire Wire Line
+	5300 3250 5400 3250
+Wire Wire Line
+	5400 3250 5400 3300
+Wire Wire Line
+	5200 3600 5050 3600
+Wire Wire Line
+	5050 3600 5050 3650
+Wire Wire Line
+	5000 3250 4750 3250
+Text Label 4750 3250 0    50   ~ 0
+M1_EN
+$Comp
+L Transistor_BJT:BC337 Q4
+U 1 1 5C9CCEDA
+P 7700 5400
+F 0 "Q4" V 7936 5400 50  0000 C CNN
+F 1 "BC337" V 8027 5400 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7900 5325 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 7700 5400 50  0001 L CNN
+F 4 "footprint, Bohrungen ok" V 7700 5400 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" V 7700 5400 50  0001 C CNN "Bestellen"
+	1    7700 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L relay:FINDER-40.61 RL4
+U 1 1 5C9CCEE0
+P 8550 5700
+F 0 "RL4" V 7983 5700 50  0000 C CNN
+F 1 "FINDER-40.61" V 8074 5700 50  0000 C CNN
+F 2 "relay:FIN4061" H 8550 5700 50  0001 C CNN
+F 3 "" V 8075 5700 50  0000 C CNN
+F 4 "FIN 40.61.9 24V" V 8550 5700 50  0001 C CNN "reichelt"
+	1    8550 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5C9CCEE6
+P 7400 5550
+F 0 "#PWR019" H 7400 5300 50  0001 C CNN
+F 1 "GND" H 7405 5377 50  0000 C CNN
+F 2 "" H 7400 5550 50  0001 C CNN
+F 3 "" H 7400 5550 50  0001 C CNN
+	1    7400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C9CCEEC
+P 7500 5150
+F 0 "R5" H 7430 5104 50  0000 R CNN
+F 1 "10k" H 7430 5195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7430 5150 50  0001 C CNN
+F 3 "~" H 7500 5150 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 7500 5150 50  0001 C CNN "footprint"
+F 5 "Nein" H 7500 5150 50  0001 C CNN "Bestellen"
+	1    7500 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR020
+U 1 1 5C9CCEF2
+P 9200 5300
+F 0 "#PWR020" H 9200 5150 50  0001 C CNN
+F 1 "+24V" H 9215 5473 50  0000 C CNN
+F 2 "" H 9200 5300 50  0001 C CNN
+F 3 "" H 9200 5300 50  0001 C CNN
+	1    9200 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5300 9200 5500
+Wire Wire Line
+	9200 5500 8950 5500
+$Comp
+L Diode:1N4148 D4
+U 1 1 5C9CCEFA
+P 8550 5000
+F 0 "D4" H 8550 4784 50  0000 C CNN
+F 1 "1N4148" H 8550 4875 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 8550 4825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8550 5000 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 8550 5000 50  0001 C CNN "footprint"
+F 5 "Nein" H 8550 5000 50  0001 C CNN "Bestellen"
+	1    8550 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 5000 8950 5000
+Wire Wire Line
+	8950 5000 8950 5500
+Connection ~ 8950 5500
+Wire Wire Line
+	8950 5500 8850 5500
+Wire Wire Line
+	8400 5000 8150 5000
+Wire Wire Line
+	8150 5000 8150 5500
+Wire Wire Line
+	8150 5500 8250 5500
+Wire Wire Line
+	8850 5800 9350 5800
+Wire Wire Line
+	8850 6000 9350 6000
+Text Label 9050 5800 0    50   ~ 0
+M2_L1
+Text Label 9050 6000 0    50   ~ 0
+M2_L2
+Wire Wire Line
+	7900 5500 8150 5500
+Connection ~ 8150 5500
+Wire Wire Line
+	7650 5150 7700 5150
+Wire Wire Line
+	7700 5150 7700 5200
+Wire Wire Line
+	7350 5150 7100 5150
+Text Label 7100 5150 0    50   ~ 0
+M2_DIR
+Wire Wire Line
+	7500 5500 7400 5500
+Wire Wire Line
+	7400 5500 7400 5550
+$Comp
+L relay:FINDER-40.61 RL2
+U 1 1 5C9D05E0
+P 6150 5600
+F 0 "RL2" V 5583 5600 50  0000 C CNN
+F 1 "FINDER-40.61" V 5674 5600 50  0000 C CNN
+F 2 "relay:FIN4061" H 6150 5600 50  0001 C CNN
+F 3 "" V 5675 5600 50  0000 C CNN
+F 4 "FIN 40.61.9 24V" V 6150 5600 50  0001 C CNN "reichelt"
+	1    6150 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 5800 5550 5800
+Text Label 5650 5800 0    50   ~ 0
+L
+$Comp
+L Transistor_BJT:BC337 Q3
+U 1 1 5C9D05E9
+P 5400 5300
+F 0 "Q3" V 5636 5300 50  0000 C CNN
+F 1 "BC337" V 5727 5300 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5600 5225 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 5400 5300 50  0001 L CNN
+F 4 "footprint, Bohrungen ok" V 5400 5300 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" V 5400 5300 50  0001 C CNN "Bestellen"
+	1    5400 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+24V #PWR017
+U 1 1 5C9D05EF
+P 6650 5250
+F 0 "#PWR017" H 6650 5100 50  0001 C CNN
+F 1 "+24V" H 6665 5423 50  0000 C CNN
+F 2 "" H 6650 5250 50  0001 C CNN
+F 3 "" H 6650 5250 50  0001 C CNN
+	1    6650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5C9D05F5
+P 6150 4900
+F 0 "D3" H 6150 4684 50  0000 C CNN
+F 1 "1N4148" H 6150 4775 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 6150 4725 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6150 4900 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 6150 4900 50  0001 C CNN "footprint"
+F 5 "Nein" H 6150 4900 50  0001 C CNN "Bestellen"
+	1    6150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C9D05FB
+P 5150 5050
+F 0 "R4" H 5080 5004 50  0000 R CNN
+F 1 "10k" H 5080 5095 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5080 5050 50  0001 C CNN
+F 3 "~" H 5150 5050 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 5150 5050 50  0001 C CNN "footprint"
+F 5 "Nein" H 5150 5050 50  0001 C CNN "Bestellen"
+	1    5150 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5C9D0601
+P 5050 5450
+F 0 "#PWR016" H 5050 5200 50  0001 C CNN
+F 1 "GND" H 5055 5277 50  0000 C CNN
+F 2 "" H 5050 5450 50  0001 C CNN
+F 3 "" H 5050 5450 50  0001 C CNN
+	1    5050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5400 5700 5400
+Wire Wire Line
+	6000 4900 5700 4900
+Wire Wire Line
+	5700 4900 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5400 5600 5400
+Wire Wire Line
+	6450 5400 6500 5400
+Wire Wire Line
+	6650 5400 6650 5250
+Wire Wire Line
+	6300 4900 6500 4900
+Wire Wire Line
+	6500 4900 6500 5400
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5400 6650 5400
+Wire Wire Line
+	5300 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 5100
+Wire Wire Line
+	5200 5400 5050 5400
+Wire Wire Line
+	5050 5400 5050 5450
+Wire Wire Line
+	5000 5050 4750 5050
+Text Label 4750 5050 0    50   ~ 0
+M2_EN
+Wire Wire Line
+	6450 5900 8250 5900
+Wire Wire Line
+	3950 2550 4300 2550
+Wire Wire Line
+	3950 2650 4300 2650
+Wire Wire Line
+	3950 2750 4300 2750
+Wire Wire Line
+	3950 2850 4300 2850
+Text Label 4050 2550 0    50   ~ 0
+M1_DIR
+Text Label 4050 2650 0    50   ~ 0
+M1_EN
+Text Label 4050 2750 0    50   ~ 0
+M2_EN
+Text Label 4050 2850 0    50   ~ 0
+M2_DIR
+Text Label 4050 2150 0    50   ~ 0
+RF_MOSI
+Text Label 4050 2250 0    50   ~ 0
+RF_MISO
+Text Label 4050 2350 0    50   ~ 0
+RF_SCLK
+Text Label 4050 1150 0    50   ~ 0
+RF_INT
+Wire Wire Line
+	3950 1950 4500 1950
+Text Label 4050 1950 0    50   ~ 0
+RF_CSN
+Wire Wire Line
+	3950 1750 5050 1750
+Wire Wire Line
+	5450 1750 5600 1750
+Wire Wire Line
+	5600 1750 5600 1800
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5C9EEF9C
+P 850 5700
+F 0 "J2" H 744 5375 50  0000 C CNN
+F 1 "Taster Markise1" H 744 5466 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_250-403_1x03_P2.50mm_45Degree" H 850 5700 50  0001 C CNN
+F 3 "~" H 850 5700 50  0001 C CNN
+	1    850  5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 5700 1600 5700
+Wire Wire Line
+	1050 5800 1600 5800
+$Comp
+L power:GND #PWR018
+U 1 1 5CA08AE2
+P 1800 5650
+F 0 "#PWR018" H 1800 5400 50  0001 C CNN
+F 1 "GND" H 1805 5477 50  0000 C CNN
+F 2 "" H 1800 5650 50  0001 C CNN
+F 3 "" H 1800 5650 50  0001 C CNN
+	1    1800 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5600 1800 5650
+Wire Wire Line
+	1050 5600 1800 5600
+Text Label 1150 5700 0    50   ~ 0
+TA1
+Text Label 1150 5800 0    50   ~ 0
+TA2
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 5CA0E47B
+P 850 6250
+F 0 "J3" H 744 5925 50  0000 C CNN
+F 1 "Taster Markise 2" H 744 6016 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_250-403_1x03_P2.50mm_45Degree" H 850 6250 50  0001 C CNN
+F 3 "~" H 850 6250 50  0001 C CNN
+	1    850  6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 6250 1600 6250
+Wire Wire Line
+	1050 6350 1600 6350
+$Comp
+L power:GND #PWR021
+U 1 1 5CA0E483
+P 1800 6200
+F 0 "#PWR021" H 1800 5950 50  0001 C CNN
+F 1 "GND" H 1805 6027 50  0000 C CNN
+F 2 "" H 1800 6200 50  0001 C CNN
+F 3 "" H 1800 6200 50  0001 C CNN
+	1    1800 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6150 1800 6200
+Wire Wire Line
+	1050 6150 1800 6150
+Text Label 1150 6250 0    50   ~ 0
+TA3
+Text Label 1150 6350 0    50   ~ 0
+TA4
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 5CA14368
+P 850 6800
+F 0 "J4" H 744 6475 50  0000 C CNN
+F 1 "Regensensor" H 744 6566 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_250-403_1x03_P2.50mm_45Degree" H 850 6800 50  0001 C CNN
+F 3 "~" H 850 6800 50  0001 C CNN
+	1    850  6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5CA14370
+P 1300 6950
+F 0 "#PWR022" H 1300 6700 50  0001 C CNN
+F 1 "GND" H 1305 6777 50  0000 C CNN
+F 2 "" H 1300 6950 50  0001 C CNN
+F 3 "" H 1300 6950 50  0001 C CNN
+	1    1300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6900 1300 6900
+Wire Wire Line
+	1300 6900 1300 6950
+$Comp
+L power:+24V #PWR023
+U 1 1 5CA4EE9C
+P 1450 6900
+F 0 "#PWR023" H 1450 6750 50  0001 C CNN
+F 1 "+24V" H 1465 7073 50  0000 C CNN
+F 2 "" H 1450 6900 50  0001 C CNN
+F 3 "" H 1450 6900 50  0001 C CNN
+	1    1450 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 6800 1450 6900
+Wire Wire Line
+	1050 6800 1450 6800
+$Comp
+L Device:R R6
+U 1 1 5CA55952
+P 1650 6900
+F 0 "R6" H 1720 6946 50  0000 L CNN
+F 1 "68k" H 1720 6855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1580 6900 50  0001 C CNN
+F 3 "~" H 1650 6900 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 1650 6900 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" H 1650 6900 50  0001 C CNN "Bestellen"
+F 6 "1/4W 68k" H 1650 6900 50  0001 C CNN "reichelt"
+	1    1650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5CA559E4
+P 1650 7300
+F 0 "R7" H 1720 7346 50  0000 L CNN
+F 1 "10k" H 1720 7255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 1580 7300 50  0001 C CNN
+F 3 "~" H 1650 7300 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 1650 7300 50  0001 C CNN "footprint"
+F 5 "Nein" H 1650 7300 50  0001 C CNN "Bestellen"
+	1    1650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5CA55AB0
+P 1650 7550
+F 0 "#PWR024" H 1650 7300 50  0001 C CNN
+F 1 "GND" H 1655 7377 50  0000 C CNN
+F 2 "" H 1650 7550 50  0001 C CNN
+F 3 "" H 1650 7550 50  0001 C CNN
+	1    1650 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6700 1650 6700
+Wire Wire Line
+	1650 6700 1650 6750
+Wire Wire Line
+	1650 7050 1650 7100
+Wire Wire Line
+	1650 7450 1650 7550
+Wire Wire Line
+	1650 7100 2050 7100
+Connection ~ 1650 7100
+Wire Wire Line
+	1650 7100 1650 7150
+Text Label 1800 7100 0    50   ~ 0
+RAIN
+Wire Wire Line
+	3950 1250 4550 1250
+Wire Wire Line
+	3950 1350 4550 1350
+Wire Wire Line
+	3950 1450 4550 1450
+Wire Wire Line
+	3950 1550 4550 1550
+Wire Wire Line
+	3950 1650 4550 1650
+Text Label 4050 1250 0    50   ~ 0
+TA2
+Text Label 4050 1350 0    50   ~ 0
+TA1
+Text Label 4050 1450 0    50   ~ 0
+TA4
+Text Label 4050 1550 0    50   ~ 0
+TA3
+Text Label 4050 1650 0    50   ~ 0
+RAIN
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5CA95FAA
+P 2600 5700
+F 0 "J5" H 2494 5375 50  0000 C CNN
+F 1 "230V" H 2494 5466 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 2600 5700 50  0001 C CNN
+F 3 "~" H 2600 5700 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 2600 5700 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" H 2600 5700 50  0001 C CNN "Bestellen"
+F 6 "WAGO 236-402" H 2600 5700 50  0001 C CNN "reichelt"
+	1    2600 5700
+	-1   0    0    1   
+$EndComp
+Text Label 2850 5600 0    50   ~ 0
+L
+Text Label 2850 5700 0    50   ~ 0
+N
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 5CA05368
+P 2600 6350
+F 0 "J6" H 2550 6050 50  0000 C CNN
+F 1 "Motor1" H 2500 6150 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree" H 2600 6350 50  0001 C CNN
+F 3 "~" H 2600 6350 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 2600 6350 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" H 2600 6350 50  0001 C CNN "Bestellen"
+F 6 "WAGO 236-403" H 2600 6350 50  0001 C CNN "reichelt"
+	1    2600 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 5CA054BB
+P 2600 7000
+F 0 "J7" H 2550 6700 50  0000 C CNN
+F 1 "Motor2" H 2500 6800 50  0000 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree" H 2600 7000 50  0001 C CNN
+F 3 "~" H 2600 7000 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" H 2600 7000 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" H 2600 7000 50  0001 C CNN "Bestellen"
+F 6 "WAGO 236-403" H 2600 7000 50  0001 C CNN "reichelt"
+	1    2600 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 6250 3300 6250
+Wire Wire Line
+	2800 6350 3300 6350
+Wire Wire Line
+	2800 6450 3300 6450
+Wire Wire Line
+	2800 6900 3300 6900
+Wire Wire Line
+	2800 7000 3300 7000
+Wire Wire Line
+	2800 7100 3300 7100
+Text Label 2850 6250 0    50   ~ 0
+N
+Text Label 2850 6350 0    50   ~ 0
+M1_L2
+Text Label 2850 6450 0    50   ~ 0
+M1_L1
+Text Label 2850 6900 0    50   ~ 0
+M2_L2
+Text Label 2850 7000 0    50   ~ 0
+M2_L1
+$Comp
+L Converter_ACDC:IRM-05-24 PS1
+U 1 1 5CA5CF38
+P 4250 5700
+F 0 "PS1" H 4250 6067 50  0000 C CNN
+F 1 "IRM-05-24" H 4250 5976 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT" H 4250 5350 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF" H 4250 5300 50  0001 C CNN
+F 4 "IRM-05-24" H 4250 5700 50  0001 C CNN "reichelt"
+	1    4250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5700 3550 5700
+$Comp
+L power:+24V #PWR025
+U 1 1 5CA19A42
+P 4750 5500
+F 0 "#PWR025" H 4750 5350 50  0001 C CNN
+F 1 "+24V" H 4765 5673 50  0000 C CNN
+F 2 "" H 4750 5500 50  0001 C CNN
+F 3 "" H 4750 5500 50  0001 C CNN
+	1    4750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5CA19AC0
+P 4750 5900
+F 0 "#PWR026" H 4750 5650 50  0001 C CNN
+F 1 "GND" H 4755 5727 50  0000 C CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5500 4750 5600
+Wire Wire Line
+	4750 5600 4650 5600
+Wire Wire Line
+	4750 5900 4750 5800
+Wire Wire Line
+	4750 5800 4650 5800
+$Comp
+L Device:Fuse F1
+U 1 1 5CA3559E
+P 3450 5600
+F 0 "F1" V 3253 5600 50  0000 C CNN
+F 1 "Fuse" V 3344 5600 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed" V 3380 5600 50  0001 C CNN
+F 3 "~" H 3450 5600 50  0001 C CNN
+F 4 "PL FPG4-40" V 3450 5600 50  0001 C CNN "reichelt"
+F 5 "footprint, Bohrungen ok" V 3450 5600 50  0001 C CNN "footprint"
+F 6 "Ja, reichelt" V 3450 5600 50  0001 C CNN "Bestellen"
+	1    3450 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5600 3300 5600
+Wire Wire Line
+	3550 5700 3550 5850
+Wire Wire Line
+	3850 5850 3850 5800
+Text Notes 4100 7650 0    50   ~ 0
+reichelt Bestellnummern teilweise als property des Bauteils hinterlegt
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5CA1E77A
+P 5250 1750
+F 0 "SW1" H 5250 2035 50  0000 C CNN
+F 1 "SW_Push" H 5250 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5250 1950 50  0001 C CNN
+F 3 "~" H 5250 1950 50  0001 C CNN
+F 4 "footprint, Bohrung ok" H 5250 1750 50  0001 C CNN "footprint"
+F 5 "Ja, reichelt" H 5250 1750 50  0001 C CNN "Bestellen"
+F 6 "TASTER 3301" H 5250 1750 50  0001 C CNN "reichelt"
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+Text Label 7400 4100 0    50   ~ 0
+M1_L
+Text Label 7500 5900 0    50   ~ 0
+M2_L
+Wire Wire Line
+	3550 5850 3850 5850
+Wire Wire Line
+	3600 5600 3850 5600
+Text Label 3700 5600 1    50   ~ 0
+L_FUSED
+Text Label 2850 7100 0    50   ~ 0
+N
+Wire Wire Line
+	1150 950  1450 950 
+Wire Wire Line
+	1450 1000 1450 950 
+Connection ~ 1450 950 
+Wire Wire Line
+	1450 950  1750 950 
+Wire Wire Line
+	1450 1300 1450 1350
+Wire Wire Line
+	1450 1350 1600 1350
+Connection ~ 1600 1350
+$Comp
+L power:+24V #PWR0101
+U 1 1 5CED7D93
+P 1300 4150
+F 0 "#PWR0101" H 1300 4000 50  0001 C CNN
+F 1 "+24V" H 1315 4323 50  0000 C CNN
+F 2 "" H 1300 4150 50  0001 C CNN
+F 3 "" H 1300 4150 50  0001 C CNN
+	1    1300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L supply:AM1S-xxxxS U1
+U 1 1 5DC9CD2D
+P 2000 4450
+F 0 "U1" H 2000 4837 60  0000 C CNN
+F 1 "AM1S-2403S" H 2000 4731 60  0000 C CNN
+F 2 "supply:SIL-4" H 2000 4450 60  0001 C CNN
+F 3 "" H 2000 4450 60  0001 C CNN
+F 4 "SIM1-2403 SIL4" H 2000 4450 50  0001 C CNN "reichelt"
+	1    2000 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4350 2700 4350
+Wire Wire Line
+	2400 4550 2500 4550
+Wire Wire Line
+	2500 4550 2500 4650
+Wire Wire Line
+	2500 4650 2700 4650
+$Comp
+L power:GND #PWR04
+U 1 1 5DD05BFB
+P 1500 4700
+F 0 "#PWR04" H 1500 4450 50  0001 C CNN
+F 1 "GND" H 1505 4527 50  0000 C CNN
+F 2 "" H 1500 4700 50  0001 C CNN
+F 3 "" H 1500 4700 50  0001 C CNN
+	1    1500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DD06009
+P 1300 4500
+F 0 "C2" H 1415 4546 50  0000 L CNN
+F 1 "10µF" H 1000 4600 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1338 4350 50  0001 C CNN
+F 3 "~" H 1300 4500 50  0001 C CNN
+F 4 "Footprint, Bohrungen ok" H 1300 4500 50  0001 C CNN "footprint"
+F 5 "nein" H 1300 4500 50  0001 C CNN "Bestellen"
+	1    1300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4150 1300 4350
+Wire Wire Line
+	1300 4350 1600 4350
+Connection ~ 1300 4350
+Wire Wire Line
+	1600 4550 1600 4650
+Wire Wire Line
+	1600 4650 1500 4650
+Wire Wire Line
+	1500 4700 1500 4650
+Connection ~ 1500 4650
+Wire Wire Line
+	1500 4650 1300 4650
+Wire Wire Line
+	8100 1600 7350 1600
+Wire Wire Line
+	8100 1700 7350 1700
+Wire Wire Line
+	8100 1800 7350 1800
+Wire Wire Line
+	8100 2000 7350 2000
+Wire Wire Line
+	8100 2100 7350 2100
+Text Label 7450 1600 0    50   ~ 0
+RF_MOSI
+Text Label 7450 1700 0    50   ~ 0
+RF_SCLK
+Text Label 7450 1800 0    50   ~ 0
+RF_MISO
+Text Label 7450 2000 0    50   ~ 0
+RF_INT
+Text Label 7450 2100 0    50   ~ 0
+RF_CSN
+Wire Wire Line
+	7550 1300 7650 1300
+Wire Wire Line
+	8100 1500 7550 1500
+Wire Wire Line
+	7550 1500 7550 1300
+Connection ~ 7550 1300
+Wire Wire Line
+	8100 1400 8000 1400
+Wire Wire Line
+	8000 1400 8000 1300
+Wire Wire Line
+	7950 1300 8000 1300
+Connection ~ 8000 1300
+$Comp
+L power:GND #PWR0102
+U 1 1 5DCDB93D
+P 9250 2000
+F 0 "#PWR0102" H 9250 1750 50  0001 C CNN
+F 1 "GND" V 9255 1872 50  0000 R CNN
+F 2 "" H 9250 2000 50  0001 C CNN
+F 3 "" H 9250 2000 50  0001 C CNN
+	1    9250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1600 9250 1600
+Wire Wire Line
+	9250 1600 9250 1900
+Wire Wire Line
+	9150 1900 9250 1900
+Connection ~ 9250 1900
+Wire Wire Line
+	9250 1900 9250 2000
+$Comp
+L Device:C C8
+U 1 1 5DD121D0
+P 7800 1000
+F 0 "C8" V 8050 950 50  0000 C CNN
+F 1 "100n" V 7950 1000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7838 850 50  0001 C CNN
+F 3 "~" H 7800 1000 50  0001 C CNN
+F 4 "footprint, Bohrungen ok" V 7800 1000 50  0001 C CNN "footprint"
+F 5 "Nein" V 7800 1000 50  0001 C CNN "Bestellen"
+	1    7800 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 850  8000 1000
+Wire Wire Line
+	8000 1000 7950 1000
+Connection ~ 8000 1000
+Wire Wire Line
+	8000 1000 8000 1300
+Wire Wire Line
+	7650 1000 7550 1000
+Wire Wire Line
+	7550 1000 7550 1300
+Wire Wire Line
+	7550 850  7550 1000
+Connection ~ 7550 1000
+Wire Wire Line
+	2700 4250 2700 4350
+Connection ~ 2700 4350
+Wire Wire Line
+	2700 4650 2700 4750
+Connection ~ 2700 4650
+$EndSCHEMATC
