@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HB-LC-Bl2-24VRain-Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -697,6 +696,7 @@ F 0 "J2" H 744 3975 50  0000 C CNN
 F 1 "Taster Markise1" H 744 4066 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_250-403_1x03_P2.50mm_45Degree" H 850 4300 50  0001 C CNN
 F 3 "~" H 850 4300 50  0001 C CNN
+F 4 "WAGO 250-403" H 850 4300 50  0001 C CNN "reichelt"
 	1    850  4300
 	-1   0    0    1   
 $EndComp
@@ -729,6 +729,7 @@ F 0 "J3" H 694 5275 50  0000 C CNN
 F 1 "Taster Markise 2" H 694 5366 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_250-403_1x03_P2.50mm_45Degree" H 800 5600 50  0001 C CNN
 F 3 "~" H 800 5600 50  0001 C CNN
+F 4 "WAGO 250-403" H 800 5600 50  0001 C CNN "reichelt"
 	1    800  5600
 	-1   0    0    1   
 $EndComp
@@ -877,9 +878,7 @@ F 0 "J5" H 6494 5375 50  0000 C CNN
 F 1 "230V" H 6494 5466 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 6600 5700 50  0001 C CNN
 F 3 "~" H 6600 5700 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 6600 5700 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 6600 5700 50  0001 C CNN "Bestellen"
-F 6 "WAGO 236-402" H 6600 5700 50  0001 C CNN "reichelt"
+F 4 "WAGO 236-402" H 6600 5700 50  0001 C CNN "reichelt"
 	1    6600 5700
 	-1   0    0    1   
 $EndComp
@@ -896,8 +895,7 @@ F 1 "Motor1" H 4125 4500 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 4225 4700 50  0001 C CNN
 F 3 "~" H 4225 4700 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 4225 4700 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 4225 4700 50  0001 C CNN "Bestellen"
-F 6 "WAGO 236-403" H 4225 4700 50  0001 C CNN "reichelt"
+F 5 "WAGO 236-402" H 4225 4700 50  0001 C CNN "reichelt"
 	1    4225 4700
 	-1   0    0    1   
 $EndComp
@@ -1187,9 +1185,7 @@ F 0 "J1" H 4175 3975 50  0000 C CNN
 F 1 "Motor_N" H 4125 4075 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 4225 4275 50  0001 C CNN
 F 3 "~" H 4225 4275 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 4225 4275 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 4225 4275 50  0001 C CNN "Bestellen"
-F 6 "WAGO 236-403" H 4225 4275 50  0001 C CNN "reichelt"
+F 4 "WAGO 236-402" H 4225 4275 50  0001 C CNN "reichelt"
 	1    4225 4275
 	-1   0    0    1   
 $EndComp
@@ -1385,9 +1381,7 @@ F 0 "J7" H 4175 4825 50  0000 C CNN
 F 1 "Motor2" H 4125 4925 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 4225 5125 50  0001 C CNN
 F 3 "~" H 4225 5125 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 4225 5125 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 4225 5125 50  0001 C CNN "Bestellen"
-F 6 "WAGO 236-403" H 4225 5125 50  0001 C CNN "reichelt"
+F 4 "WAGO 236-402" H 4225 5125 50  0001 C CNN "reichelt"
 	1    4225 5125
 	-1   0    0    1   
 $EndComp
