@@ -100,22 +100,14 @@ Connection ~ 1850 3150
 $Comp
 L power:+3.3V #PWR07
 U 1 1 5C85366D
-P 8000 850
-F 0 "#PWR07" H 8000 700 50  0001 C CNN
-F 1 "+3.3V" H 8015 1023 50  0000 C CNN
-F 2 "" H 8000 850 50  0001 C CNN
-F 3 "" H 8000 850 50  0001 C CNN
-	1    8000 850 
+P 8000 1125
+F 0 "#PWR07" H 8000 975 50  0001 C CNN
+F 1 "+3.3V" H 8015 1298 50  0000 C CNN
+F 2 "" H 8000 1125 50  0001 C CNN
+F 3 "" H 8000 1125 50  0001 C CNN
+	1    8000 1125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 2150 4750 2150
-Wire Wire Line
-	3950 2250 4850 2250
-Wire Wire Line
-	3950 2350 4950 2350
-Wire Wire Line
-	5050 1150 3950 1150
 $Comp
 L power:GND #PWR06
 U 1 1 5C8566FC
@@ -128,75 +120,54 @@ F 3 "" H 5600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5C868F8E
-P 1750 1150
-F 0 "C4" H 1865 1196 50  0000 L CNN
-F 1 "100n" H 1865 1105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1788 1000 50  0001 C CNN
-F 3 "~" H 1750 1150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 1750 1150 50  0001 C CNN "footprint"
-	1    1750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5C8690C6
 P 1450 1150
 F 0 "C3" H 1565 1196 50  0000 L CNN
-F 1 "100n" H 1565 1105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 1488 1000 50  0001 C CNN
+F 1 "1u" H 1565 1105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1488 1000 50  0001 C CNN
 F 3 "~" H 1450 1150 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 1450 1150 50  0001 C CNN "footprint"
+F 5 "MKS2-63 1,0µ" H 1450 1150 50  0001 C CNN "reichelt"
 	1    1450 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 950  1750 950 
-Wire Wire Line
 	1150 950  1150 900 
-Wire Wire Line
-	1750 1000 1750 950 
-Connection ~ 1750 950 
 $Comp
 L power:GND #PWR09
 U 1 1 5C86CE93
-P 1600 1400
-F 0 "#PWR09" H 1600 1150 50  0001 C CNN
-F 1 "GND" H 1605 1227 50  0000 C CNN
-F 2 "" H 1600 1400 50  0001 C CNN
-F 3 "" H 1600 1400 50  0001 C CNN
-	1    1600 1400
+P 1450 1350
+F 0 "#PWR09" H 1450 1100 50  0001 C CNN
+F 1 "GND" H 1455 1177 50  0000 C CNN
+F 2 "" H 1450 1350 50  0001 C CNN
+F 3 "" H 1450 1350 50  0001 C CNN
+	1    1450 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 1300 1750 1350
-Wire Wire Line
-	1750 1350 1600 1350
-Wire Wire Line
-	1600 1400 1600 1350
 $Comp
 L Device:C C5
 U 1 1 5C86F0B1
 P 7800 1300
 F 0 "C5" V 7650 1300 50  0000 C CNN
-F 1 "100n" V 7950 1300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7838 1150 50  0001 C CNN
+F 1 "1u" V 7950 1300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7838 1150 50  0001 C CNN
 F 3 "~" H 7800 1300 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" V 7800 1300 50  0001 C CNN "footprint"
 F 5 "Nein" V 7800 1300 50  0001 C CNN "Bestellen"
+F 6 "C3X7R 1,0U 50" V 7800 1300 50  0001 C CNN "reichelt"
 	1    7800 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5C86F143
-P 7550 850
-F 0 "#PWR010" H 7550 600 50  0001 C CNN
-F 1 "GND" V 7555 722 50  0000 R CNN
-F 2 "" H 7550 850 50  0001 C CNN
-F 3 "" H 7550 850 50  0001 C CNN
-	1    7550 850 
+P 7550 1125
+F 0 "#PWR010" H 7550 875 50  0001 C CNN
+F 1 "GND" V 7555 997 50  0000 R CNN
+F 2 "" H 7550 1125 50  0001 C CNN
+F 3 "" H 7550 1125 50  0001 C CNN
+	1    7550 1125
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -266,11 +237,10 @@ L Device:R R3
 U 1 1 5C9A5C9D
 P 8900 2800
 F 0 "R3" H 8830 2754 50  0000 R CNN
-F 1 "10k" H 8830 2845 50  0000 R CNN
+F 1 "2k4" H 8830 2845 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8830 2800 50  0001 C CNN
 F 3 "~" H 8900 2800 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 8900 2800 50  0001 C CNN "footprint"
-F 5 "Nein" H 8900 2800 50  0001 C CNN "Bestellen"
 	1    8900 2800
 	0    -1   -1   0   
 $EndComp
@@ -319,9 +289,9 @@ Wire Wire Line
 	10250 3450 10750 3450
 Wire Wire Line
 	10250 3650 10750 3650
-Text Label 10450 3450 0    50   ~ 0
+Text Label 10750 3450 2    50   ~ 0
 M1_L1
-Text Label 10450 3650 0    50   ~ 0
+Text Label 10750 3650 2    50   ~ 0
 M1_L2
 Wire Wire Line
 	9650 3550 7850 3550
@@ -383,11 +353,10 @@ L Device:R R2
 U 1 1 5C9B22AE
 P 6550 2700
 F 0 "R2" H 6480 2654 50  0000 R CNN
-F 1 "10k" H 6480 2745 50  0000 R CNN
+F 1 "2k4" H 6480 2745 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 2700 50  0001 C CNN
 F 3 "~" H 6550 2700 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 6550 2700 50  0001 C CNN "footprint"
-F 5 "Nein" H 6550 2700 50  0001 C CNN "Bestellen"
 	1    6550 2700
 	0    -1   -1   0   
 $EndComp
@@ -475,11 +444,10 @@ L Device:R R5
 U 1 1 5C9CCEEC
 P 8900 4200
 F 0 "R5" H 8830 4154 50  0000 R CNN
-F 1 "10k" H 8830 4245 50  0000 R CNN
+F 1 "2k4" H 8830 4245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8830 4200 50  0001 C CNN
 F 3 "~" H 8900 4200 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 8900 4200 50  0001 C CNN "footprint"
-F 5 "Nein" H 8900 4200 50  0001 C CNN "Bestellen"
 	1    8900 4200
 	0    -1   -1   0   
 $EndComp
@@ -528,9 +496,9 @@ Wire Wire Line
 	10250 4850 10750 4850
 Wire Wire Line
 	10250 5050 10750 5050
-Text Label 10450 4850 0    50   ~ 0
+Text Label 10750 4850 2    50   ~ 0
 M2_L1
-Text Label 10450 5050 0    50   ~ 0
+Text Label 10750 5050 2    50   ~ 0
 M2_L2
 Wire Wire Line
 	9300 4550 9550 4550
@@ -601,11 +569,10 @@ L Device:R R4
 U 1 1 5C9D05FB
 P 6550 4100
 F 0 "R4" H 6480 4054 50  0000 R CNN
-F 1 "10k" H 6480 4145 50  0000 R CNN
+F 1 "2k4" H 6480 4145 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 4100 50  0001 C CNN
 F 3 "~" H 6550 4100 50  0001 C CNN
 F 4 "footprint, Bohrungen ok" H 6550 4100 50  0001 C CNN "footprint"
-F 5 "Nein" H 6550 4100 50  0001 C CNN "Bestellen"
 	1    6550 4100
 	0    -1   -1   0   
 $EndComp
@@ -662,25 +629,23 @@ Wire Wire Line
 	3950 2750 4300 2750
 Wire Wire Line
 	3950 2850 4300 2850
-Text Label 4050 2550 0    50   ~ 0
+Text Label 4300 2550 2    50   ~ 0
 M1_DIR
-Text Label 4050 2650 0    50   ~ 0
+Text Label 4300 2650 2    50   ~ 0
 M1_EN
-Text Label 4050 2750 0    50   ~ 0
+Text Label 4300 2750 2    50   ~ 0
 M2_EN
-Text Label 4050 2850 0    50   ~ 0
+Text Label 4300 2850 2    50   ~ 0
 M2_DIR
-Text Label 4050 2150 0    50   ~ 0
+Text Label 4300 2150 2    50   ~ 0
 RF_MOSI
-Text Label 4050 2250 0    50   ~ 0
+Text Label 4300 2250 2    50   ~ 0
 RF_MISO
-Text Label 4050 2350 0    50   ~ 0
+Text Label 4300 2350 2    50   ~ 0
 RF_SCLK
-Text Label 4050 1150 0    50   ~ 0
+Text Label 4300 1150 2    50   ~ 0
 RF_INT
-Wire Wire Line
-	3950 1950 4500 1950
-Text Label 4050 1950 0    50   ~ 0
+Text Label 4300 1950 2    50   ~ 0
 RF_CSN
 Wire Wire Line
 	3950 1750 5050 1750
@@ -717,9 +682,9 @@ F 3 "" H 1800 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1050 4200 1800 4200
-Text Label 1150 4300 0    50   ~ 0
+Text Label 1600 4300 2    50   ~ 0
 TA1_IN
-Text Label 1150 4400 0    50   ~ 0
+Text Label 1600 4400 2    50   ~ 0
 TA2_IN
 $Comp
 L Connector:Conn_01x03_Female J3
@@ -752,9 +717,9 @@ Wire Wire Line
 	1750 5500 1750 5550
 Wire Wire Line
 	1000 5500 1750 5500
-Text Label 1100 5600 0    50   ~ 0
+Text Label 1550 5600 2    50   ~ 0
 TA3_IN
-Text Label 1100 5700 0    50   ~ 0
+Text Label 1550 5700 2    50   ~ 0
 TA4_IN
 $Comp
 L Connector:Conn_01x03_Female J4
@@ -848,27 +813,17 @@ Wire Wire Line
 Connection ~ 5025 5975
 Wire Wire Line
 	5025 5975 5025 6025
-Text Label 5175 5975 0    50   ~ 0
+Text Label 5425 5975 2    50   ~ 0
 RAIN
-Wire Wire Line
-	3950 1250 4550 1250
-Wire Wire Line
-	3950 1350 4550 1350
-Wire Wire Line
-	3950 1450 4550 1450
-Wire Wire Line
-	3950 1550 4550 1550
-Wire Wire Line
-	3950 1650 4550 1650
-Text Label 4050 1250 0    50   ~ 0
+Text Label 4300 1250 2    50   ~ 0
 TA2
-Text Label 4050 1350 0    50   ~ 0
+Text Label 4300 1350 2    50   ~ 0
 TA1
-Text Label 4050 1450 0    50   ~ 0
+Text Label 4300 1450 2    50   ~ 0
 TA4
-Text Label 4050 1550 0    50   ~ 0
+Text Label 4300 1550 2    50   ~ 0
 TA3
-Text Label 4050 1650 0    50   ~ 0
+Text Label 4300 1650 2    50   ~ 0
 RAIN
 $Comp
 L Connector:Conn_01x02_Female J5
@@ -903,13 +858,13 @@ Wire Wire Line
 	4425 4600 4925 4600
 Wire Wire Line
 	4425 4700 4925 4700
-Text Label 4475 4600 0    50   ~ 0
+Text Label 4925 4600 2    50   ~ 0
 M1_L2
-Text Label 4475 4700 0    50   ~ 0
+Text Label 4925 4700 2    50   ~ 0
 M1_L1
-Text Label 4475 5025 0    50   ~ 0
+Text Label 4925 5025 2    50   ~ 0
 M2_L1
-Text Label 4475 5125 0    50   ~ 0
+Text Label 4925 5125 2    50   ~ 0
 M2_L2
 $Comp
 L Converter_ACDC:IRM-05-24 PS1
@@ -1006,13 +961,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 1000 1450 950 
 Connection ~ 1450 950 
-Wire Wire Line
-	1450 950  1750 950 
-Wire Wire Line
-	1450 1300 1450 1350
-Wire Wire Line
-	1450 1350 1600 1350
-Connection ~ 1600 1350
 $Comp
 L power:+24V #PWR0101
 U 1 1 5CED7D93
@@ -1092,15 +1040,15 @@ Wire Wire Line
 	8100 2000 7350 2000
 Wire Wire Line
 	8100 2100 7350 2100
-Text Label 7450 1600 0    50   ~ 0
+Text Label 7350 1600 0    50   ~ 0
 RF_MOSI
-Text Label 7450 1700 0    50   ~ 0
+Text Label 7350 1700 0    50   ~ 0
 RF_SCLK
-Text Label 7450 1800 0    50   ~ 0
+Text Label 7350 1800 0    50   ~ 0
 RF_MISO
-Text Label 7450 2000 0    50   ~ 0
+Text Label 7350 2000 0    50   ~ 0
 RF_INT
-Text Label 7450 2100 0    50   ~ 0
+Text Label 7350 2100 0    50   ~ 0
 RF_CSN
 Wire Wire Line
 	7550 1300 7650 1300
@@ -1108,14 +1056,12 @@ Wire Wire Line
 	8100 1500 7550 1500
 Wire Wire Line
 	7550 1500 7550 1300
-Connection ~ 7550 1300
 Wire Wire Line
 	8100 1400 8000 1400
 Wire Wire Line
 	8000 1400 8000 1300
 Wire Wire Line
 	7950 1300 8000 1300
-Connection ~ 8000 1300
 $Comp
 L power:GND #PWR0102
 U 1 1 5DCDB93D
@@ -1136,33 +1082,6 @@ Wire Wire Line
 Connection ~ 9250 1900
 Wire Wire Line
 	9250 1900 9250 2000
-$Comp
-L Device:C C8
-U 1 1 5DD121D0
-P 7800 1000
-F 0 "C8" V 8050 950 50  0000 C CNN
-F 1 "100n" V 7950 1000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 7838 850 50  0001 C CNN
-F 3 "~" H 7800 1000 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" V 7800 1000 50  0001 C CNN "footprint"
-F 5 "Nein" V 7800 1000 50  0001 C CNN "Bestellen"
-	1    7800 1000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8000 850  8000 1000
-Wire Wire Line
-	8000 1000 7950 1000
-Connection ~ 8000 1000
-Wire Wire Line
-	8000 1000 8000 1300
-Wire Wire Line
-	7650 1000 7550 1000
-Wire Wire Line
-	7550 1000 7550 1300
-Wire Wire Line
-	7550 850  7550 1000
-Connection ~ 7550 1000
 Wire Wire Line
 	10750 5600 10750 5700
 Connection ~ 10750 5700
@@ -1171,11 +1090,11 @@ Wire Wire Line
 Connection ~ 10750 6000
 Wire Wire Line
 	7250 3450 6625 3450
-Text Label 6700 3450 0    50   ~ 0
+Text Label 6625 3450 0    50   ~ 0
 L_FUSED
 Wire Wire Line
 	7250 4850 6650 4850
-Text Label 6750 4850 0    50   ~ 0
+Text Label 6650 4850 0    50   ~ 0
 L_FUSED
 $Comp
 L Connector:Conn_01x02_Female J1
@@ -1193,9 +1112,9 @@ Wire Wire Line
 	4425 4175 4950 4175
 Wire Wire Line
 	4425 4275 4950 4275
-Text Label 4475 4175 0    50   ~ 0
+Text Label 4950 4175 2    50   ~ 0
 N
-Text Label 4475 4275 0    50   ~ 0
+Text Label 4950 4275 2    50   ~ 0
 N
 Wire Wire Line
 	1800 4100 1800 4200
@@ -1235,8 +1154,7 @@ F 0 "C6" H 3365 4446 50  0000 L CNN
 F 1 "100n" H 3365 4355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 3288 4250 50  0001 C CNN
 F 3 "~" H 3250 4400 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 3250 4400 50  0001 C CNN "footprint"
-F 5 "nein" H 3250 4400 50  0001 C CNN "Bestellen"
+F 4 "MKS02-63 100N" H 3250 4400 50  0001 C CNN "reichelt"
 	1    3250 4400
 	1    0    0    -1  
 $EndComp
@@ -1278,7 +1196,7 @@ F 3 "" H 3250 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 4550 3250 4650
-Text Label 3300 4150 0    50   ~ 0
+Text Label 3450 4150 2    50   ~ 0
 TA1
 Text Label 2400 4150 0    50   ~ 0
 TA1_IN
@@ -1320,8 +1238,7 @@ F 0 "C7" H 3365 5396 50  0000 L CNN
 F 1 "100n" H 3365 5305 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 3288 5200 50  0001 C CNN
 F 3 "~" H 3250 5350 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 3250 5350 50  0001 C CNN "footprint"
-F 5 "nein" H 3250 5350 50  0001 C CNN "Bestellen"
+F 4 "MKS02-63 100N" H 3250 5350 50  0001 C CNN "reichelt"
 	1    3250 5350
 	1    0    0    -1  
 $EndComp
@@ -1363,7 +1280,7 @@ F 3 "" H 3250 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 5500 3250 5600
-Text Label 3300 5100 0    50   ~ 0
+Text Label 3450 5100 2    50   ~ 0
 TA2
 Text Label 2400 5100 0    50   ~ 0
 TA2_IN
@@ -1421,8 +1338,7 @@ F 0 "C9" H 3365 6321 50  0000 L CNN
 F 1 "100n" H 3365 6230 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 3288 6125 50  0001 C CNN
 F 3 "~" H 3250 6275 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 3250 6275 50  0001 C CNN "footprint"
-F 5 "nein" H 3250 6275 50  0001 C CNN "Bestellen"
+F 4 "MKS02-63 100N" H 3250 6275 50  0001 C CNN "reichelt"
 	1    3250 6275
 	1    0    0    -1  
 $EndComp
@@ -1464,7 +1380,7 @@ F 3 "" H 3250 6525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 6425 3250 6525
-Text Label 3300 6025 0    50   ~ 0
+Text Label 3450 6025 2    50   ~ 0
 TA3
 Text Label 2400 6025 0    50   ~ 0
 TA3_IN
@@ -1506,8 +1422,7 @@ F 0 "C10" H 3365 7271 50  0000 L CNN
 F 1 "100n" H 3365 7180 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 3288 7075 50  0001 C CNN
 F 3 "~" H 3250 7225 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 3250 7225 50  0001 C CNN "footprint"
-F 5 "nein" H 3250 7225 50  0001 C CNN "Bestellen"
+F 4 "MKS02-63 100N" H 3250 7225 50  0001 C CNN "reichelt"
 	1    3250 7225
 	1    0    0    -1  
 $EndComp
@@ -1549,10 +1464,89 @@ F 3 "" H 3250 7475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 7375 3250 7475
-Text Label 3300 6975 0    50   ~ 0
+Text Label 3450 6975 2    50   ~ 0
 TA4
 Text Label 2400 6975 0    50   ~ 0
 TA4_IN
 Wire Wire Line
 	2400 6975 2750 6975
+Wire Wire Line
+	1450 950  2050 950 
+Wire Wire Line
+	1450 1300 1450 1350
+Wire Wire Line
+	8000 1125 8000 1300
+Connection ~ 8000 1300
+Wire Wire Line
+	7550 1125 7550 1300
+Connection ~ 7550 1300
+Wire Wire Line
+	4300 2350 3950 2350
+Wire Wire Line
+	3950 2250 4300 2250
+Wire Wire Line
+	3950 2150 4300 2150
+Wire Wire Line
+	4300 1950 3950 1950
+NoConn ~ 3950 1850
+Wire Wire Line
+	4300 1650 3950 1650
+Wire Wire Line
+	4300 1550 3950 1550
+Wire Wire Line
+	4300 1450 3950 1450
+Wire Wire Line
+	4300 1350 3950 1350
+Wire Wire Line
+	4300 1250 3950 1250
+Wire Wire Line
+	4300 1150 3950 1150
+NoConn ~ 3950 1050
+NoConn ~ 3950 950 
+NoConn ~ 3950 2950
+NoConn ~ 3950 3050
+NoConn ~ 3950 3150
+NoConn ~ 3950 3250
+NoConn ~ 2050 2850
+NoConn ~ 2050 2750
+NoConn ~ 2075 1225
+NoConn ~ 9150 1750
+NoConn ~ 8100 1900
+NoConn ~ 7850 4750
+NoConn ~ 7850 3350
+Text Notes 5800 3775 0    50   ~ 0
+Ic = 27mA, hFE=100\nIb = Ic/(hFE/3.3) = 891uA\nRb = (3.0V-0.7V)/891uA = 2581 Ohm
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DD3706E
+P 6425 6675
+F 0 "H1" H 6525 6721 50  0000 L CNN
+F 1 "MountingHole" H 6525 6630 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6425 6675 50  0001 C CNN
+F 3 "~" H 6425 6675 50  0001 C CNN
+	1    6425 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DD37834
+P 6425 6900
+F 0 "H2" H 6525 6946 50  0000 L CNN
+F 1 "MountingHole" H 6525 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6425 6900 50  0001 C CNN
+F 3 "~" H 6425 6900 50  0001 C CNN
+	1    6425 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DD37E63
+P 6425 7125
+F 0 "H3" H 6525 7171 50  0000 L CNN
+F 1 "MountingHole" H 6525 7080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6425 7125 50  0001 C CNN
+F 3 "~" H 6425 7125 50  0001 C CNN
+	1    6425 7125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
