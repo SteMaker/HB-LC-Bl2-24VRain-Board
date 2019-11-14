@@ -21,8 +21,6 @@ F 0 "U3" H 8800 2250 60  0000 L CNN
 F 1 "CC1101-868MHz-Module" H 8200 2350 60  0000 L CNN
 F 2 "radio:CC1101_Module" H 8600 1750 60  0001 C CNN
 F 3 "http://www.digirf.com/XWFU/2013/4f3751b81deca976.pdf" H 8600 1750 60  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8600 1750 50  0001 C CNN "footprint"
-F 5 "Nein" H 8600 1750 50  0001 C CNN "Bestellen"
 	1    8600 1750
 	1    0    0    -1  
 $EndComp
@@ -49,15 +47,14 @@ F 3 "" H 10750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Device:CP C1
 U 1 1 5C85133D
 P 10750 5850
 F 0 "C1" H 10865 5896 50  0000 L CNN
 F 1 "10µF" H 10865 5805 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10788 5700 50  0001 C CNN
 F 3 "~" H 10750 5850 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 10750 5850 50  0001 C CNN "footprint"
-F 5 "nein" H 10750 5850 50  0001 C CNN "Bestellen"
+F 4 "RAD 10/63" H 10750 5850 50  0001 C CNN "reichelt"
 	1    10750 5850
 	1    0    0    -1  
 $EndComp
@@ -127,8 +124,7 @@ F 0 "C3" H 1565 1196 50  0000 L CNN
 F 1 "1u" H 1565 1105 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1488 1000 50  0001 C CNN
 F 3 "~" H 1450 1150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 1450 1150 50  0001 C CNN "footprint"
-F 5 "MKS2-63 1,0µ" H 1450 1150 50  0001 C CNN "reichelt"
+F 4 "MKS2-63 1,0u" H 1450 1150 50  0001 C CNN "reichelt"
 	1    1450 1150
 	1    0    0    -1  
 $EndComp
@@ -153,9 +149,7 @@ F 0 "C5" V 7650 1300 50  0000 C CNN
 F 1 "1u" V 7950 1300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7838 1150 50  0001 C CNN
 F 3 "~" H 7800 1300 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" V 7800 1300 50  0001 C CNN "footprint"
-F 5 "Nein" V 7800 1300 50  0001 C CNN "Bestellen"
-F 6 "C3X7R 1,0U 50" V 7800 1300 50  0001 C CNN "reichelt"
+F 4 "MKS2-63 1,0u" V 7800 1300 50  0001 C CNN "reichelt"
 	1    7800 1300
 	0    -1   -1   0   
 $EndComp
@@ -204,8 +198,7 @@ F 0 "Q2" V 9336 3050 50  0000 C CNN
 F 1 "BC337" V 9427 3050 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 9300 2975 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 9100 3050 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 9100 3050 50  0001 C CNN "footprint"
-F 5 "Ja" V 9100 3050 50  0001 C CNN "Bestellen"
+F 4 "RND BC337" V 9100 3050 50  0001 C CNN "reichelt"
 	1    9100 3050
 	0    1    1    0   
 $EndComp
@@ -240,7 +233,7 @@ F 0 "R3" H 8830 2754 50  0000 R CNN
 F 1 "2k4" H 8830 2845 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8830 2800 50  0001 C CNN
 F 3 "~" H 8900 2800 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8900 2800 50  0001 C CNN "footprint"
+F 4 "1/4W 2k4" H 8900 2800 50  0001 C CNN "reichelt"
 	1    8900 2800
 	0    -1   -1   0   
 $EndComp
@@ -267,8 +260,7 @@ F 0 "D2" H 9950 2434 50  0000 C CNN
 F 1 "1N4148" H 9950 2525 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 9950 2475 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9950 2650 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 9950 2650 50  0001 C CNN "footprint"
-F 5 "Nein" H 9950 2650 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 9950 2650 50  0001 C CNN "reichelt"
 	1    9950 2650
 	-1   0    0    1   
 $EndComp
@@ -303,9 +295,7 @@ F 0 "Q1" V 7036 2950 50  0000 C CNN
 F 1 "BC337" V 7127 2950 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7000 2875 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 6800 2950 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 6800 2950 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 6800 2950 50  0001 C CNN "Bestellen"
-F 6 "RND BC337" V 6800 2950 50  0001 C CNN "reichelt"
+F 4 "RND BC337" V 6800 2950 50  0001 C CNN "reichelt"
 	1    6800 2950
 	0    1    1    0   
 $EndComp
@@ -343,8 +333,7 @@ F 0 "D1" H 7550 2334 50  0000 C CNN
 F 1 "1N4148" H 7550 2425 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 7550 2375 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7550 2550 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 7550 2550 50  0001 C CNN "footprint"
-F 5 "Nein" H 7550 2550 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 7550 2550 50  0001 C CNN "reichelt"
 	1    7550 2550
 	-1   0    0    1   
 $EndComp
@@ -356,7 +345,7 @@ F 0 "R2" H 6480 2654 50  0000 R CNN
 F 1 "2k4" H 6480 2745 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 2700 50  0001 C CNN
 F 3 "~" H 6550 2700 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 6550 2700 50  0001 C CNN "footprint"
+F 4 "1/4W 2k4" H 6550 2700 50  0001 C CNN "reichelt"
 	1    6550 2700
 	0    -1   -1   0   
 $EndComp
@@ -411,8 +400,7 @@ F 0 "Q4" V 9336 4450 50  0000 C CNN
 F 1 "BC337" V 9427 4450 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 9300 4375 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 9100 4450 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 9100 4450 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 9100 4450 50  0001 C CNN "Bestellen"
+F 4 "RND BC337" V 9100 4450 50  0001 C CNN "reichelt"
 	1    9100 4450
 	0    1    1    0   
 $EndComp
@@ -447,7 +435,7 @@ F 0 "R5" H 8830 4154 50  0000 R CNN
 F 1 "2k4" H 8830 4245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8830 4200 50  0001 C CNN
 F 3 "~" H 8900 4200 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 8900 4200 50  0001 C CNN "footprint"
+F 4 "1/4W 2k4" H 8900 4200 50  0001 C CNN "reichelt"
 	1    8900 4200
 	0    -1   -1   0   
 $EndComp
@@ -474,8 +462,7 @@ F 0 "D4" H 9950 3834 50  0000 C CNN
 F 1 "1N4148" H 9950 3925 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 9950 3875 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9950 4050 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 9950 4050 50  0001 C CNN "footprint"
-F 5 "Nein" H 9950 4050 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 9950 4050 50  0001 C CNN "reichelt"
 	1    9950 4050
 	-1   0    0    1   
 $EndComp
@@ -535,8 +522,7 @@ F 0 "Q3" V 7036 4350 50  0000 C CNN
 F 1 "BC337" V 7127 4350 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7000 4275 50  0001 L CIN
 F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 6800 4350 50  0001 L CNN
-F 4 "footprint, Bohrungen ok" V 6800 4350 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" V 6800 4350 50  0001 C CNN "Bestellen"
+F 4 "RND BC337" V 6800 4350 50  0001 C CNN "reichelt"
 	1    6800 4350
 	0    1    1    0   
 $EndComp
@@ -559,8 +545,7 @@ F 0 "D3" H 7550 3734 50  0000 C CNN
 F 1 "1N4148" H 7550 3825 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 7550 3775 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7550 3950 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 7550 3950 50  0001 C CNN "footprint"
-F 5 "Nein" H 7550 3950 50  0001 C CNN "Bestellen"
+F 4 "1N 4148" H 7550 3950 50  0001 C CNN "reichelt"
 	1    7550 3950
 	-1   0    0    1   
 $EndComp
@@ -572,7 +557,7 @@ F 0 "R4" H 6480 4054 50  0000 R CNN
 F 1 "2k4" H 6480 4145 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 4100 50  0001 C CNN
 F 3 "~" H 6550 4100 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 6550 4100 50  0001 C CNN "footprint"
+F 4 "1/4W 2k4" H 6550 4100 50  0001 C CNN "reichelt"
 	1    6550 4100
 	0    -1   -1   0   
 $EndComp
@@ -770,9 +755,7 @@ F 0 "R6" H 5095 5821 50  0000 L CNN
 F 1 "6k8" H 5095 5730 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4955 5775 50  0001 C CNN
 F 3 "~" H 5025 5775 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 5025 5775 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 5025 5775 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 5025 5775 50  0001 C CNN "reichelt"
+F 4 "1/4W 6k8" H 5025 5775 50  0001 C CNN "reichelt"
 	1    5025 5775
 	1    0    0    -1  
 $EndComp
@@ -784,8 +767,7 @@ F 0 "R7" H 5095 6221 50  0000 L CNN
 F 1 "1k" H 5095 6130 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4955 6175 50  0001 C CNN
 F 3 "~" H 5025 6175 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 5025 6175 50  0001 C CNN "footprint"
-F 5 "Nein" H 5025 6175 50  0001 C CNN "Bestellen"
+F 4 "1/4W 1,0K" H 5025 6175 50  0001 C CNN "reichelt"
 	1    5025 6175
 	1    0    0    -1  
 $EndComp
@@ -919,8 +901,6 @@ F 1 "Fuse" V 7344 5600 50  0000 C CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed" V 7380 5600 50  0001 C CNN
 F 3 "~" H 7450 5600 50  0001 C CNN
 F 4 "PL FPG4-40" V 7450 5600 50  0001 C CNN "reichelt"
-F 5 "footprint, Bohrungen ok" V 7450 5600 50  0001 C CNN "footprint"
-F 6 "Ja, reichelt" V 7450 5600 50  0001 C CNN "Bestellen"
 	1    7450 5600
 	0    1    1    0   
 $EndComp
@@ -940,9 +920,7 @@ F 0 "SW1" H 5250 2035 50  0000 C CNN
 F 1 "SW_Push" H 5250 1944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5250 1950 50  0001 C CNN
 F 3 "~" H 5250 1950 50  0001 C CNN
-F 4 "footprint, Bohrung ok" H 5250 1750 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 5250 1750 50  0001 C CNN "Bestellen"
-F 6 "TASTER 3301" H 5250 1750 50  0001 C CNN "reichelt"
+F 4 "TASTER 3301" H 5250 1750 50  0001 C CNN "reichelt"
 	1    5250 1750
 	1    0    0    -1  
 $EndComp
@@ -1004,15 +982,14 @@ F 3 "" H 9550 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:CP C2
 U 1 1 5DD06009
 P 9350 5850
 F 0 "C2" H 9465 5896 50  0000 L CNN
 F 1 "10µF" H 9050 5950 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9388 5700 50  0001 C CNN
 F 3 "~" H 9350 5850 50  0001 C CNN
-F 4 "Footprint, Bohrungen ok" H 9350 5850 50  0001 C CNN "footprint"
-F 5 "nein" H 9350 5850 50  0001 C CNN "Bestellen"
+F 4 "RAD 10/63" H 9350 5850 50  0001 C CNN "reichelt"
 	1    9350 5850
 	1    0    0    -1  
 $EndComp
@@ -1126,9 +1103,7 @@ F 0 "R1" H 2820 3996 50  0000 L CNN
 F 1 "10k" H 2820 3905 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2680 3950 50  0001 C CNN
 F 3 "~" H 2750 3950 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 2750 3950 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 2750 3950 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 2750 3950 50  0001 C CNN "reichelt"
+F 4 "1/4W 10k" H 2750 3950 50  0001 C CNN "reichelt"
 	1    2750 3950
 	1    0    0    -1  
 $EndComp
@@ -1140,9 +1115,7 @@ F 0 "R11" H 3070 4196 50  0000 L CNN
 F 1 "47" H 3070 4105 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2930 4150 50  0001 C CNN
 F 3 "~" H 3000 4150 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 3000 4150 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 3000 4150 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 3000 4150 50  0001 C CNN "reichelt"
+F 4 "1/4W 47" H 3000 4150 50  0001 C CNN "reichelt"
 	1    3000 4150
 	0    1    1    0   
 $EndComp
@@ -1210,9 +1183,7 @@ F 0 "R8" H 2820 4946 50  0000 L CNN
 F 1 "10k" H 2820 4855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2680 4900 50  0001 C CNN
 F 3 "~" H 2750 4900 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 2750 4900 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 2750 4900 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 2750 4900 50  0001 C CNN "reichelt"
+F 4 "1/4W 10k" H 2750 4900 50  0001 C CNN "reichelt"
 	1    2750 4900
 	1    0    0    -1  
 $EndComp
@@ -1224,9 +1195,7 @@ F 0 "R12" H 3070 5146 50  0000 L CNN
 F 1 "47" H 3070 5055 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2930 5100 50  0001 C CNN
 F 3 "~" H 3000 5100 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 3000 5100 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 3000 5100 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 3000 5100 50  0001 C CNN "reichelt"
+F 4 "1/4W 47" H 3000 5100 50  0001 C CNN "reichelt"
 	1    3000 5100
 	0    1    1    0   
 $EndComp
@@ -1310,9 +1279,7 @@ F 0 "R9" H 2820 5871 50  0000 L CNN
 F 1 "10k" H 2820 5780 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2680 5825 50  0001 C CNN
 F 3 "~" H 2750 5825 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 2750 5825 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 2750 5825 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 2750 5825 50  0001 C CNN "reichelt"
+F 4 "1/4W 10k" H 2750 5825 50  0001 C CNN "reichelt"
 	1    2750 5825
 	1    0    0    -1  
 $EndComp
@@ -1324,9 +1291,7 @@ F 0 "R13" H 3070 6071 50  0000 L CNN
 F 1 "47" H 3070 5980 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2930 6025 50  0001 C CNN
 F 3 "~" H 3000 6025 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 3000 6025 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 3000 6025 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 3000 6025 50  0001 C CNN "reichelt"
+F 4 "1/4W 47" H 3000 6025 50  0001 C CNN "reichelt"
 	1    3000 6025
 	0    1    1    0   
 $EndComp
@@ -1394,9 +1359,7 @@ F 0 "R10" H 2820 6821 50  0000 L CNN
 F 1 "10k" H 2820 6730 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2680 6775 50  0001 C CNN
 F 3 "~" H 2750 6775 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 2750 6775 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 2750 6775 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 2750 6775 50  0001 C CNN "reichelt"
+F 4 "1/4W 10k" H 2750 6775 50  0001 C CNN "reichelt"
 	1    2750 6775
 	1    0    0    -1  
 $EndComp
@@ -1408,9 +1371,7 @@ F 0 "R14" H 3070 7021 50  0000 L CNN
 F 1 "47" H 3070 6930 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2930 6975 50  0001 C CNN
 F 3 "~" H 3000 6975 50  0001 C CNN
-F 4 "footprint, Bohrungen ok" H 3000 6975 50  0001 C CNN "footprint"
-F 5 "Ja, reichelt" H 3000 6975 50  0001 C CNN "Bestellen"
-F 6 "1/4W 68k" H 3000 6975 50  0001 C CNN "reichelt"
+F 4 "1/4W 47" H 3000 6975 50  0001 C CNN "reichelt"
 	1    3000 6975
 	0    1    1    0   
 $EndComp
